@@ -1,9 +1,9 @@
 name: schedule
 
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
   schedule:
-    - cron: '15 * * * *'
+    - cron: '0 * * * *'
       # https://crontab.guru/
 
 jobs:
