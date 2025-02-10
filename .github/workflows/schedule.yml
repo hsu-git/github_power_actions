@@ -8,6 +8,7 @@ on:
 
 jobs:
   make-issue:
+    if: false  # 항상 실행되지 않음
     runs-on: ubuntu-latest
     permissions:
       issues: write
